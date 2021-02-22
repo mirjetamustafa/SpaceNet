@@ -137,7 +137,7 @@ footer .kontakt a:hover{
 }
 
 .form-input input[type=text], input[type=email] {
-    width: 50%;
+    width: 20%;
     padding: 12px;
     margin: 6px;
     border: none;
