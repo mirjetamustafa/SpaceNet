@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+    font-family: 'Dancing Script', cursive;
+   /* height: 1000px; 
+    background-image: linear-gradient( black , red);*/
+    
+    
+}
+
+/*========== Navbar ============*/
+.navbar{
+    background: rgb(19, 18, 18);
+    
+}
+.navbar ul{
+	list-style-type: none;
+}
+.navbar ul li{
+	display: inline;
+}
+.navbar ul li a{
+	padding: 15px 40px;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+    color: white;
+    transition: 2s;
+}
+.navbar ul li a:hover{
+	color: red;
+}
+.navbar-brand{
+    font-size: 26px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    transition:  2s;
+}
+.navbar-brand:hover{
+    color: red;
+}
+
+/*========== Section ============*/
+
+.section{
+    margin-top: 60px;
+}
+.text{
+    background: rgb(17, 17, 17);
+}
+.gamer-1{
+    color: white;
+    text-transform: capitalize;
+    padding-top: 190px;
+    text-align: center;
+}
+.gamer{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.pubg{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: inherit;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+.pubg::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .9;
+    z-index: 0;
+    mix-blend-mode: hard-light;
+}
+.pubg > *{
+    z-index: 10;
+    position: relative;
+}
+
+/*======== Sherbimet ===========*/
+
+.sherbimet{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*======= Footer ==========*/
+
+footer{
+    background-color: black;
+    color: white;
+}
+.kontakt{
+    text-align: center;
+    padding-top: 50px;
+}
+footer h1{
+    font-size: 50px;
+}
+.contact{
+    font-family: sans-serif;
+}
+footer .kontakt a{
+    color: white;
+    font-size: 24px;
+    padding: 5px;
+    transition: 2s;
+}
+footer .kontakt a:hover{
+    color: red;
+}
+
+.copy{
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+
+/*========================= Contact ====================*/
+
+.row{
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.form-input input[type=text], input[type=email] {
+    width: 20%;
+    padding: 12px;
+    margin: 6px;
+    border: none;
+    background: rgb(236, 236, 236);
+    color: #333;
+    border-radius: 1px;
+    box-sizing: border-box;
+   transition: .4s ease;
+}
+.focus-only:focus {
+    outline: 1px solid black;
+    transition: .5s ease;
+}
+   
+textarea {
+    width: 65%;
+    padding: 20px;
+    border: none;
+    background: rgb(236, 236, 236);
+    color: #333;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    transition: .5s ease;
+}
+.form-input input[type=submit] {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: 65%;
+    background-color: black;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: .8s ease;
+}
+   
+
+.form-input input[type=submit]:hover{
+    background-color: #333;
+    color: white;
+}
+
+
+/*=============== Map ==============*/
+
+#map{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
