@@ -2,7 +2,8 @@
     <footer style="margin-top: 0;">
         <div class="kontakt">
             
-                <h1>Space@Net</h1>
+                <h1>Space</h1>
+                <span class="contact">Gaming Center</span>
                 <p class="contact">Bëjm servisim dhe shitje të pajisjeve teknologjike</p>
                 <h6 class="contact">Na kontaktoni</h6>
                 <h6 class="contact">044-000-000</h6>
@@ -20,6 +21,7 @@
 
 
   <!-- jQuery -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

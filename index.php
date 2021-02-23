@@ -2,7 +2,7 @@
 
   <!-- Section -->
 
-    <section class="section">					
+    <section class="section">				
         <div class=" pubg">
             <h1 class="gamer-1">I am a gamer </h1>
             <h1 class="gamer">not because i have no life</h1>
@@ -34,6 +34,15 @@
                     </div>
                     <div class="item">
                         <img src="img/rules.jpg" alt="Rules" width="100" height="300">
+                    </div>
+                    <div class="item">
+                        <img src="img/league.jpg" alt="Rules" width="100" height="300">
+                    </div>
+                    <div class="item">
+                        <img src="img/callofduty.jpg" alt="Rules" width="100" height="300">
+                    </div>
+                    <div class="item">
+                        <img src="img/valorant.jpg" alt="Rules" width="100" height="300">
                     </div>
                 </div>
             </div>	
